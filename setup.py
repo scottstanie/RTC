@@ -60,9 +60,6 @@ setup(
     classifiers=['Programming Language :: Python'],
     scripts=['app/rtc_s1.py', 'app/rtc_s1_single_job.py',
              'app/rtc_compare.py'],
-    install_requires=['argparse', 'numpy', 'yamale',
-                      'scipy', 'pytest', 'requests',
-                      'pyproj', 'shapely', 'matplotlib'],
     url='https://github.com/opera-adt/RTC',
     license=('Copyright by the California Institute of Technology.'
              ' ALL RIGHTS RESERVED.'),
